@@ -19,3 +19,4 @@ if p3 == 'si':
     c=int(input('Cuanto?'))
     contador=contador+(aceite*c)
     productos.append(f'Aceite: {aceite}*{c}')
+print(f'Usted lleva {productos} y su total es: {contador}')
